@@ -7,7 +7,7 @@ const IndexComponent = () => {
     const content = (
         <div>
             <a href='/working-page'>Page 1</a>
-            <a href='/error-text-in-page'>Page 2, where is a error text</a>
+            <a href='/error-text-in-page'>Page 2</a>
         </div>
     );
 

@@ -5,12 +5,12 @@ const IndexComponent = () => {
   const [loading, setLoading] = useState(true);
   
   const PageContent = (
-      <div>Error occurred!</div>
+      <div>An unexpected error occurred! Please try again after some time.</div>
   );
 
   return (
     <>
-      <PageTemplate title={'Test page - error-text-in-page'} content={PageContent} loading={loading} setLoading={setLoading} />
+      <PageTemplate title={'Test page'} content={PageContent} loading={loading} setLoading={setLoading} />
     </>
   );
 };
